@@ -1,0 +1,142 @@
+﻿
+@font-face
+{
+font-family: 'amara';
+src:url('Amaranth/SairaSemiCondensed-Light.ttf') format('truetype');
+
+
+font-weight: normal;
+
+}
+
+@font-face
+{
+font-family: 'margarine';
+src:url('Amaranth/Margarine-Regular.ttf') format('truetype');
+
+
+font-weight: normal;
+
+}
+
+
+body
+{
+background: url('../images/leo.jpg') no-repeat;
+background-size: 45% 100%;
+
+display: flex;
+
+font-family: 'amara'
+
+}
+
+.introtext
+{
+
+margin:auto;
+min-width: 300px;
+border: 0px solid red;
+min-height: 300px;
+
+margin-left: 40%
+
+
+
+}
+
+
+
+
+#mini
+{
+
+margin:auto;
+
+border: 0px solid green;
+
+margin-left: 0%;
+margin-top: 35%;
+font-family: verdana;
+color: ##c4c4c4;
+font-size: 14px;
+max-width: 400px
+
+}
+
+.introtext p
+{
+
+	font-size: 10px;
+
+
+	}
+
+h1{
+
+font-size: 70px;
+	font-weight: bold;
+
+}
+
+.introtext h1
+{
+
+	color:black;
+
+	font-size: 100px
+
+}
+
+
+#lien
+{
+
+position: fixed;
+bottom:5px;
+right: 5px;
+  display: flex; /* contexte sur le parent */
+  flex-direction: column; /* direction d'affichage verticale */
+  justify-content: center;
+text-decoration-line: none;
+text-align: center;
+  box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.14), 0 1px 5px 0 rgba(0, 0, 0, 0.12), 0 3px 1px -2px rgba(0, 0, 0, 0.2);
+
+
+
+;
+
+background: #ababab;
+
+width: 200px;
+
+
+height:50px;
+border-radius: 3px;
+color:white;
+
+
+}
+
+#lien:hover
+{
+
+	background: #7f5a8e
+}
+
+
+
+a:visited
+{
+
+	text-decoration:none;
+	color:white;
+}
+
+a:hover
+{
+
+	background-color: yellow
+}
+
+

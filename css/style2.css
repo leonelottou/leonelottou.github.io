@@ -1,0 +1,706 @@
+
+@font-face
+{
+font-family: 'amara';
+src:url('Amaranth/SairaCondensed-Light.ttf') format('truetype');
+
+
+font-weight: normal;
+
+}
+
+@font-face
+{
+font-family: 'margarine';
+src:url('Amaranth/Margarine-Regular.ttf') format('truetype');
+
+
+font-weight: normal;
+
+}
+
+
+@font-face
+{
+font-family: 'gudea';
+src:url('Amaranth/Gudea-Regular.ttf') format('truetype');
+
+
+font-weight: normal;
+line-height: 33px;
+
+}
+
+body
+{
+background: url('') no-repeat;
+background-size: 45% 100%;
+
+
+
+font-family: 'gudea';
+
+padding-bottom: 10px;
+
+
+}
+
+footer {
+
+padding-bottom: 6%;
+padding-top: 3%;
+color: #919191;
+font-weight: bold;
+position:relative;
+display:flex;
+flex-direction: column;
+}
+#info
+{
+	display: inline-block;
+	vertical-align: 20%;
+	margin: auto;
+	position: absolute;
+	left: 0px;
+}
+
+footer ul
+{
+display: inline-block;
+ position: absolute;
+ right: 0px;
+ border: 0px  solid red;
+ text-decoration-style: none;
+ padding: 0px;
+vertical-align: top;
+margin: auto;
+
+}
+
+#reseau li {
+
+display: inline-block;
+text-decoration:none;
+margin-left: 10px
+
+
+}
+
+#reseau img
+{
+
+	width: 35px;
+
+	height: 35px;
+}
+
+#logo {
+
+min-height: 120px;
+display: flex;
+
+
+}
+
+#navigation li
+{
+
+display: inline-block;
+vertical-align: top;
+text-decoration: none;
+
+font-size: 25px;
+
+padding: 0px;
+
+border:0px solid green;
+
+
+}
+
+#navigation li a:hover
+{
+
+color:#919191;
+}
+
+#navigation li a
+{
+
+text-decoration:none;
+color: #5ba5ce;
+
+}
+
+a:visited
+{
+
+	text-decoration:none;
+
+}
+
+
+
+
+
+#navigation li:after {
+    margin:0 30px;
+    display: inline-block;
+    content: '/';
+    color: #eee;
+    font-family: arial
+}
+
+#navigation li:last-child:after {
+    margin:0 30px;
+    display: inline-block;
+    content: ' ';
+    color: #eee;
+    font-family: arial
+}
+
+
+nav{
+margin: auto;
+	border: 0px solid green;
+	padding: 0px;
+	padding-bottom: 40px;
+	border-bottom: 1px solid #ebebeb;
+	width: 90%;
+	display: flex
+
+
+}
+
+.circle
+
+{
+
+	border-radius: 50%;
+	border: 0px;
+}
+
+#imagelogo
+{
+display: block;
+width:100px;
+margin: auto;
+padding: 0px;
+
+}
+
+
+#figure
+{
+display: inline-block;
+width:300px;
+height:300px;
+margin: auto;
+padding: 0px;
+
+}
+
+
+#navigation
+{
+
+
+
+ border:0px solid red;
+ margin: auto;
+ padding: 0px;
+
+
+
+}
+
+
+
+
+/* corps */
+
+#main{
+
+
+	width:75%;
+	border: 0px solid red;
+	margin: auto;
+	padding:10px
+}
+section
+{
+
+	padding-bottom: 40px;
+	border-bottom: 1px solid #ebebeb;
+
+}
+.button{
+display: inline-block;
+text-decoration-line: none;
+text-align: center;
+  box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.14), 0 1px 5px 0 rgba(0, 0, 0, 0.12), 0 3px 1px -2px rgba(0, 0, 0, 0.2);
+
+
+background: #78b7d8;
+
+padding: 5 20px;
+
+border-radius: 3px;
+color:white;
+vertical-align: middle;
+  -webkit-tap-highlight-color: transparent;
+
+
+}
+
+
+.button:hover
+{
+
+	background: #7f5a8e
+}
+
+#figure,#figure2
+{
+display: inline-block;
+width:300px;
+height:300px;
+margin: auto;
+padding: 0px;
+vertical-align: top;
+
+}
+
+
+#presentation
+{
+display: inline-block;
+min-width:300px;
+min-height:300px;
+margin: auto;
+padding: 0px;
+border: 0px solid green;
+vertical-align: top;
+width:58%;
+margin-left: 10px
+
+}
+
+#presentation h1,#travaux h1,#faq h1
+{
+font-size: 54px;
+word-wrap: break-word;
+width: 100%;
+border: 0px solid yellow;
+margin:0px;
+font-weight: normal;
+
+
+}
+
+#presentation p
+{
+font-size: 34px;
+word-wrap: break-word;
+width: 100%;
+border: 0px solid yellow;
+margin:0px;
+font-weight: normal;
+
+color:#919191;
+border: 0px solid red;
+
+padding-bottom: 3em;
+position: relative;
+
+	}
+
+	#lien
+{
+
+position: absolute;
+bottom:5px;
+right: 5px;
+
+
+
+
+}
+
+
+
+#travaux h1,#faq h1
+{
+
+margin:auto;
+text-align: center;
+margin-bottom: 50px
+
+}
+
+#figure2
+{
+width: 75%;
+
+height: 500px;
+
+}
+
+
+#presentation2
+{
+display: inline-block;
+
+padding: 0px;
+border: 0px solid green;
+vertical-align: top;
+width: 20%;
+margin-left: 25px;
+line-height: 33px
+
+}
+
+#presentation2 h1
+{
+font-size:40px;
+word-wrap: break-word;
+width: 100%;
+border: 0px solid yellow;
+margin:0px;
+font-weight: normal;
+
+
+}
+
+#presentation2 p
+{
+font-size: 20px;
+width: 100%;
+border: 0px solid yellow;
+margin:0px;
+font-weight: normal;
+
+color:#919191;
+border: 0px solid red;
+
+padding-bottom: 3em;
+text-align: j
+
+
+	}
+
+
+
+	.temoignage
+{
+
+width: 100%;
+padding-bottom: 30px;
+background-color: #e9f1f5;
+padding-top: 30px
+
+
+}
+
+
+
+.service{
+
+	width:75%;
+	border: 0px solid red;
+	margin: auto;
+	padding:10px;
+	min-height: 200px;
+	display: flex;
+
+}
+.box
+{
+width: 30%;
+min-height: 200px;
+display: inline-block;
+vertical-align: top;
+content: 'allo';
+border:0px solid yellow;
+margin: auto;
+display: flex;
+flex-direction: column;
+
+
+}
+
+.box img
+{
+ width:100px;
+ height: 100px;
+ display: block;
+ margin: auto;
+ margin-top: 10px;
+
+}
+
+
+
+
+
+.box h1
+{
+
+
+ display: block;
+ margin: auto;
+color:#919191;
+margin-bottom: 0px;
+
+
+}
+
+
+.box p
+{
+
+font-size: 20px;
+text-align: center;
+color:#919191;
+
+margin-top: 0px;
+min-height: 220px;
+border: 0px solid red;
+line-height: 33px;
+text-align: justify;
+}
+
+
+
+.contact{
+
+	width:75%;
+
+	margin: auto;
+	padding:10px;
+	min-height: 200px;
+
+	padding-bottom:3%;
+
+}
+
+.contact h1{
+
+display: block;
+text-align: center;
+margin: auto;
+border: 0px solid red;
+color:#919191;
+font-size: 45px;
+margin-bottom: 0px;
+
+}
+.contact p {
+	margin-top: 0px;
+text-align:center;
+font-size: 27px;
+color: #919191;
+margin-bottom: 10px
+
+
+
+
+}
+
+.contact a:after{
+
+
+content: '>';
+margin-left: 10px;
+font-weight: bolder;
+font-size: 35px;
+
+
+}
+
+/*  A PRPOSP*/
+
+
+#travaux h1, #faq h1
+{
+
+margin:auto;
+text-align: center;
+margin-bottom: 50px
+
+}
+
+#gallerie
+{
+width: 75%;
+
+height: 70%;
+margin: auto;
+min-height: 200px;
+border: 0px solid red;
+padding-top: 2%;
+padding-bottom: 2%;
+}
+
+.illus
+{
+  display: inline-block;
+  width: 49%;
+  border: 0px solid green;
+  min-height: 100px;
+vertical-align: top;
+
+}
+.illus img
+{
+  width: 100%;
+  height: 90%;
+
+
+}
+
+
+#travaux p
+{
+
+
+padding: 0px;
+border: 0px solid green;
+width: 75%;
+
+font-size: 20px;
+line-height: 33px;
+margin:auto;
+
+color: #919191;
+padding-bottom: 10px;
+
+}
+
+.titre
+{
+text-align: center;
+font-size: 43px;
+width: 75%;
+
+}
+
+
+.illus p
+{
+
+
+padding: 0px;
+border: 0px solid green;
+
+
+font-size: 15px;
+line-height: 33px;
+margin:auto;
+text-align: center;
+color: #919191;
+
+}
+
+
+.tel
+{
+font-weight: bold;
+color: #9dcae0;
+
+}
+
+#rttr p
+{
+font-size: 20px;
+width: 100%;
+border: 0px solid yellow;
+margin:0px;
+font-weight: normal;
+
+color:#919191;
+border: 0px solid red;
+
+padding-bottom: 3em;
+text-align: j
+
+
+	}
+
+	#travaux
+	{
+
+	}
+
+
+	/* FAQ */
+
+.rubrique
+{
+
+width: 75%;
+border: 0px solid red;
+margin: auto;
+margin-bottom: 15px;
+}
+
+.question
+{
+
+background-color: #eef6fa;
+
+display: flex;
+padding: 10px;
+}
+
+
+.reponse
+{
+
+background-color: #e2edf2;
+
+display: flex;
+padding: 10px;
+
+}
+.imgrq
+{
+
+background: #dbe3e6;
+font-weight:900;
+font-size: 15px;
+display: flex;
+width:50px;
+height: 50px;
+
+color:#919191;
+margin-right: 20px;
+}
+
+ .libelle
+{
+
+
+font-size: 16px;
+padding-left:10px;
+color:#919191;
+font-weight: bolder;
+font-style: italic;
+
+
+
+}
+
+ .libelles
+{
+
+
+font-size: 16px;
+padding-left:10px;
+color:#919191;
+border:0px solid yellow;
+
+vertical-align: top;
+width: 90%;
+margin: auto;
+}

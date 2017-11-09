@@ -1,0 +1,54 @@
+﻿
+#figure2
+{
+width: 200px;
+
+height:200px;
+
+}
+
+
+#presentation2
+{
+display: inline-block;
+
+padding: 0px;
+border: 0px solid green;
+vertical-align: top;
+width: 60%;
+margin-left: 25px;
+line-height: 33px
+
+}
+
+#presentation2 h1
+{
+font-size:40px;
+word-wrap: break-word;
+width: 100%;
+border: 0px solid yellow;
+margin:0px;
+font-weight: normal;
+padding-bottom: 25px;
+
+
+}
+
+#presentation2 p,#presentation2 ul
+
+{
+font-size: 25px;
+width: 100%;
+border: 0px solid yellow;
+margin:0px;
+font-weight: normal;
+
+color:#919191;
+border: 0px solid red;
+
+padding-bottom: 10px;
+text-align: j
+
+
+	}
+
