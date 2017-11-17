@@ -704,3 +704,102 @@ vertical-align: top;
 width: 90%;
 margin: auto;
 }
+
+
+input[type="text"],#message
+{
+ border:1px solid #dddddd;
+ border-radius: 5px;
+ height: 40px;
+ background: #f9f9f9;
+ width:100%;
+ padding: 5px;
+ margin: 0px;
+display: block
+
+
+
+}
+
+
+input[type="text"]:focus,#message:focus
+{
+
+ background: #fff;
+
+
+
+}
+
+#form
+{
+width:100%;
+margin: auto;
+border:0px solid green;
+text-align: center;
+
+}
+
+.input-box
+{
+display: inline-block;
+vertical-align: top;
+width:38%;
+border: 0px solid green;
+
+}
+
+.input-textarea
+{
+display: block;
+vertical-align: top;
+width:100%;
+
+
+}
+
+.input-box label
+{
+	display: block;
+	margin-left:0px;
+	color: #919191;
+	margin-bottom: 15px;
+	text-align: left;
+
+
+}
+#message
+{
+
+height: 150px;
+margin-top: 15px;
+width:80%;
+display: block;
+margin: auto;
+margin-top: 2%;
+
+
+}
+
+.error2
+{
+
+width:50%;
+margin:auto;
+border:2px solid #e4051f;
+background: #f14e53 ;
+font-size: 19px;
+color:black;
+padding: 5px
+
+
+}
+
+
+#form input[type="submit"]{
+
+border:0px;
+padding: 15px;
+font-size: 18px
+
+}
