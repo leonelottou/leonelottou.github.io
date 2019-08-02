@@ -1,0 +1,8 @@
+
+RewriteEngine on
+
+RewriteOptions inherit
+RewriteCond %{REQUEST_FILENAME} !-f
+    RewriteCond %{REQUEST_FILENAME} !-d
+    RewriteRule ^(.*)$ index.html/$1 [L]
+    RewriteRule ^(.*)$ https://leonelottou.asta.cm/$1 [R,L]

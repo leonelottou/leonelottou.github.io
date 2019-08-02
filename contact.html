@@ -5,7 +5,10 @@
 <meta http-equiv="contet-type">
 <meta name="author" content="Leonel Ottou" />
 <meta name="description" content="Portofolio de Leonel Ottou">
+<meta name="viewport" content="width=device-width initial-scale=1.0, maximum-scale=1.0, user-scalable=no" >
 <link rel="stylesheet" type="text/css" href="css/style2.css">
+
+<link rel="stylesheet" type="text/css" href="css/responsive.css">
 <title>Leonel Ottou | Me Contacter</title>
 <link rel="icon"  href="images/leo.ico">
 
@@ -24,7 +27,7 @@ var dataString = 'nom='+nom +'&email='+ email +'&message='+ msg;
 
 
 $.ajax({
-url: "https://asta.cm/statique/verif_contact2",
+url: "http://asta.cm/statique/verif_contact2",
 type: 'POST',
 contentType: "application/x-www-form-urlencoded;charset=ISO-8859-1",
 data: dataString,
@@ -60,12 +63,7 @@ return false;
 </script>
 
 <style>
-#contact2 li img{display: inline-block;vertical-align: top}
-#contact2 li { display:inline-block; width:px;text-align: right;border: 0px solid red;padding-right: : 0px}
- #contact2{width:100%;margin-left:25px;margin:auto;margin-top:40px;text-align:center}
- #contact2 a{text-decoration: none}
 
- #text{width:80%;margin-left:25px;margin:auto;margin-top:40px;text-align:center}
 
 </style>
 
@@ -90,22 +88,24 @@ return false;
 </nav>
 
 <div id="main">
-<section id="travaux" style="border: 0px solid red">
+<section class="travaux" style="border: 0px solid red">
 <h1>Contactez Moi </h1>
 
-<ul id="contact2" style="border: 0px solid grey">
+
+<ul class="contact2" style="">
                 <li class="">
-                  <a href="contact.html"><img src="http://www.asta.cm/public/assets/images/sub_news.png" > asta@asta.cm  |</a>
+                  <a href="contact.html"><img src="http://www.asta.cm/public/assets/images/sub_news.png" > leonelottou@asta.cm  |</a>
                 </li>
                 <li class="">
                    <img src="http://www.asta.cm/public/assets/images/tel.png" > +237 653 18 68 61
 
                 </li>
               </ul>
-			  <p id="text">Vous avez une préoccupation? Remplissez simplement le formulaire ci-dessous et on vous recontactera dès que possible!</p>
+              <p id="text"><span class="dispo">Disponibilité :</span> Je suis actuellement Disponible pour tout projet independant</p>
+			  <p id="text">Vous avez une préoccupation? Remplissez simplement le formulaire ci-dessous et je vous recontacterai dès que possible!</p>
 
 <form id="form" style="">
-    <div id="info2" style="width: 50%;text-align: center;margin:auto;min-height: 100px;border: 0px solid green"></div>
+    <div id="info2" style="width: 50%;text-align: center;margin:auto;border: 0px solid green"></div>
 
 	<div class="input-box" style="margin-right: 4%">
 	<label for="nom"> Votre Nom</label>
@@ -116,6 +116,7 @@ return false;
 	<input type="text" name="email" id="email" required="required">
 </div>
 <div class="input-textarea">
+	<label for="nom"> En quoi puis je vous aider?</label>
 <textarea id="message" required="required"	></textarea><br>
 <input type="submit" class="button"  value="Envoyez moi un message" style="" id="send">
 </div>
