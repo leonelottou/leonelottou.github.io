@@ -31,17 +31,18 @@ line-height: 33px;
 
 }
 
+
 body
 {
 background: url('') no-repeat;
-background-size: 45% 100%;
 
 
 
+width: 100%;
 font-family: 'gudea';
 
 padding-bottom: 10px;
-
+border: 0px solid red
 
 }
 
@@ -74,6 +75,7 @@ display: inline-block;
  padding: 0px;
 vertical-align: top;
 margin: auto;
+
 
 }
 
@@ -286,7 +288,7 @@ margin-left: 10px
 
 }
 
-#presentation h1,#travaux h1,#faq h1
+#presentation h1,.travaux h1,#faq h1
 {
 font-size: 54px;
 word-wrap: break-word;
@@ -329,7 +331,7 @@ right: 5px;
 
 
 
-#travaux h1,#faq h1
+.travaux h1,#faq h1
 {
 
 margin:auto;
@@ -390,6 +392,15 @@ text-align: j
 	}
 
 
+.prebas{
+
+
+width: 75%;
+text-align: center;
+display: inline-block;
+
+
+}
 
 	.temoignage
 {
@@ -402,8 +413,19 @@ padding-top: 30px
 
 }
 
+.tem
+
+{
+
+	width: 60%;
+	margin: auto;
 
 
+}
+
+.tem p{
+	 font-size: 36px;
+}
 .service{
 
 	width:75%;
@@ -521,7 +543,7 @@ font-size: 35px;
 /*  A PRPOSP*/
 
 
-#travaux h1, #faq h1
+.travaux h1, #faq h1
 {
 
 margin:auto;
@@ -551,6 +573,17 @@ padding-bottom: 2%;
 vertical-align: top;
 
 }
+
+.illus2
+{
+
+
+  border: 0px solid green;
+  min-height: 100px;
+vertical-align: top;
+
+
+}
 .illus img
 {
   width: 100%;
@@ -559,8 +592,27 @@ vertical-align: top;
 
 }
 
+.illus2 img
+{
+  width: 80%;
+  height: 90%;
+  margin: auto;
+  display: block
 
-#travaux p
+
+}
+
+.illus3 img
+{
+
+  margin: auto;
+  display: block
+
+
+}
+
+
+.travaux p,.travaux ul
 {
 
 
@@ -603,6 +655,34 @@ color: #919191;
 }
 
 
+
+.illus2 p
+{
+
+
+padding: 0px;
+border: 0px solid green;
+
+
+font-size: 15px;
+line-height: 33px;
+margin:auto;
+text-align: center;
+color: #919191;
+
+}
+
+.intro
+{
+display: block;
+margin-left: 2px;
+text-align: left;
+font-size: 45px;
+width: 75%;
+margin: auto;
+
+}
+
 .tel
 {
 font-weight: bold;
@@ -627,7 +707,7 @@ text-align: j
 
 	}
 
-	#travaux
+	.travaux
 	{
 
 	}
@@ -687,7 +767,7 @@ color:#919191;
 font-weight: bolder;
 font-style: italic;
 
-
+width: 90%;
 
 }
 
@@ -705,6 +785,15 @@ width: 90%;
 margin: auto;
 }
 
+
+
+.contact2 li img{display: inline-block;vertical-align: top}
+.contact2 li { display:inline-block; width:px;text-align: right;border: 0px solid red;padding-right: : 0px}
+ .contact2{width:100%;margin-left:25px;margin:auto;margin-top:40px;text-align:center}
+ .contact2 a{text-decoration: none}
+.contact2 a:visited{color: #919191}
+ .#text{width:80%;margin-left:25px;margin:auto;margin-top:40px;text-align:center;border: 0px solid green}
+ .dispo{font-weight: bold; color: black;}
 
 input[type="text"],#message
 {
@@ -737,6 +826,7 @@ width:100%;
 margin: auto;
 border:0px solid green;
 text-align: center;
+padding-top:3px;
 
 }
 
@@ -758,14 +848,22 @@ width:100%;
 
 }
 
-.input-box label
+.input-box label,.input-textarea label
 {
 	display: block;
 	margin-left:0px;
 	color: #919191;
 	margin-bottom: 15px;
 	text-align: left;
+	border: 0px solid red
 
+
+}
+
+.input-textarea label{
+width: 80%;
+margin: auto;
+margin-top: 10px;
 
 }
 #message
